@@ -1,0 +1,101 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+coverage.txt
+coverage.html
+*.cov
+
+# Go workspace file
+go.work
+
+# Dependency directories
+vendor/
+
+# Build directories
+bin/
+dist/
+build/
+
+# Binary name (if building locally)
+railgun
+
+# IDE specific files
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Test data
+testdata/
+*.csv
+*.jsonl
+*.tsv
+!examples/**/*.csv
+!examples/**/*.jsonl
+!examples/**/*.tsv
+
+# Benchmarks
+*.bench
+bench/
+
+# Profiling
+*.prof
+*.pprof
+cpu.prof
+mem.prof
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Docker
+docker-compose.override.yml
+.docker/
+
+# PostgreSQL data (for local development)
+postgres-data/
+pgdata/
+
+# Documentation build
+docs/_build/
+docs/site/
+
+# OS specific
+Thumbs.db
+.DS_Store
+.directory
+
+# Debug
+debug
+__debug_bin
+
+# Air (live reload tool)
+.air.toml
+tmp/

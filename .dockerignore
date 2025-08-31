@@ -1,0 +1,87 @@
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Documentation
+README.md
+*.md
+docs/
+LICENSE
+
+# Development
+.vscode/
+.idea/
+*.iml
+.DS_Store
+
+# Testing
+*_test.go
+testdata/
+*.test
+*.out
+coverage.*
+*.cov
+examples/
+
+# Benchmarks
+*.bench
+bench/
+*.prof
+*.pprof
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+Jenkinsfile
+
+# Docker
+Dockerfile*
+docker-compose*.yml
+.docker/
+.dockerignore
+
+# Build artifacts
+bin/
+dist/
+build/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.log
+
+# Environment
+.env*
+
+# Go workspace
+go.work
+go.work.sum
+
+# Database
+*.db
+*.sqlite*
+postgres-data/
+pgdata/
+
+# Data files (for development)
+*.csv
+*.jsonl
+*.tsv
+!testdata/sample.*
+
+# OS files
+.DS_Store
+Thumbs.db
+.directory
+
+# Editor backup files
+*.swp
+*.swo
+*~
+*.backup
+
+# Air config (live reload)
+.air.toml
